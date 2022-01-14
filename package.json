@@ -1,0 +1,30 @@
+{
+  "name": "webpack-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "build": "webpack --config=webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanWhitney/typescript_webpack_jest_node_seed.git"
+  },
+  "author": "dwhitney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanWhitney/typescript_webpack_jest_node_seed/issues"
+  },
+  "homepage": "https://github.com/DanWhitney/typescript_webpack_jest_node_seed#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "ts-jest": "^27.1.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
